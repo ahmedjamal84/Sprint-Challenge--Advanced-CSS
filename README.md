@@ -33,12 +33,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Responsive sites and adaptive sites are the same in that they both change appearance based on the browser environment they are being viewed on (the most common thing: the browser's width). Responsive websites respond to the size of the browser at any given point.
 
 2. Describe what it means to be mobile first vs desktop first.
+With mobile-first you style for mobile size and use min-width media queries to adjust as the browser width increases. With desktop-first you style for desktop (or large tablet) and use max-width to adjust as the browser width decreases.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
 4. How would you describe preprocessing to someone new to CSS?
+CSS Pre-processors are in our development life for years. In their first implementations, they had few features. But nowadays, they are the key ingredients and must have tools for CSS development. Pre-processors extend CSS with variables, operators, interpolations, functions, mixins and many more other usable assets.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
